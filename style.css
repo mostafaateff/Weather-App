@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #1E202B;
+}
+ 
+
+.nav-link:hover{
+    border: solid 2px #029ED9;
+    color: #029ED9;
+}
+ 
+ .nav-link {
+    border: solid 2px  transparent;
+    transition: all .5s;
+    color: white ;
+}
+
+.active{
+ border: solid 2px #029ED9;
+  color: #029ED9;
+}
+
+header{
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: min-content;
+}
+
+
+.location-input{
+    border-radius: 30px;
+    background-color: #1E202B;
+   
+}
+
+
+.find-button {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.Subscribe-button{
+    position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+}
+
+.weather-icon{
+    width: 150px;
+}
+
+.hum-con img , .win-con img {
+    width: 45px;
+}
+
+.icon-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.icon-item:hover {
+background-color: white;
+color: blue;
+}
+
+
+.weather-item{
+    backdrop-filter: blur(2px);
+}
+
